@@ -1,0 +1,28 @@
+.pagination__nav__list {
+    display: flex;
+    color: #A09B9B;
+    background-color: #F5F5F5;
+    padding: 0;
+
+}
+
+.pagination__nav__item:last-child {
+    border-right: none;
+}
+
+.pagination__nav__item {
+    border-right: 2px solid #dbdada;
+    box-shadow: inset 0px 4px 4px rgba(225, 223, 223, 0.25);
+    list-style: none;
+    width: 182px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.pagination__nav__item.active, .pagination__nav__item:hover {
+    background-color: #D41E24;
+    color: #fff;
+}

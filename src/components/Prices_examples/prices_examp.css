@@ -1,0 +1,50 @@
+.section__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 264px);
+    gap: 8px;
+    max-width: 1080px;
+    justify-content: center;
+    
+}
+
+.section__content__item {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    background-color: #F5F5F5;
+    padding: 35px 18px;
+    height: 348px;
+    font-weight: 500;
+    
+}
+
+.section__content__item.main {
+    background: url("../../pict/bcg-main-class.svg");
+    height: 348px;
+    color: #fff;
+}
+
+.section__content__item__title {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.section__content__item__bottom-content {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.section__content__item__text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.section__content__item__bottom-content span {
+    font-size: 14px;
+    
+}

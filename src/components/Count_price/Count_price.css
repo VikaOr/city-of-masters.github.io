@@ -1,0 +1,75 @@
+.price-section__content {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 438px);
+    gap: 110px;
+    width: 100%;
+}
+
+.section--wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.section__content__item--left ,
+.section__content__item--right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 532px;
+    text-align: left;
+}
+
+.interactive-line--container {
+    display: flex;
+    gap: 20px;
+}
+
+.section__content__item--right__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.interactive-line__left-text ,
+.interactive-line__right-text {
+    display: flex;
+    font-size: 20px;
+}
+
+.interactive-line__left-text {
+    color: #A09B9B;
+}
+
+.section__content__item__bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+
+.section__content__item__bar--elem {
+    width: 127px;
+    padding: 7px 10px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.section__content__item__bar--elem.active,
+.section__content__item__bar--elem:hover {
+    background-color: #D41E24;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.section__content__item__btn-section {
+    display: flex;
+    gap: 10px;
+}
+
+.section__content__item--right .seconary-btn , .section__content__item--right .prev-btn {
+    width: 215px;
+    padding-left: 0;
+    padding-right: 0;
+    
+}

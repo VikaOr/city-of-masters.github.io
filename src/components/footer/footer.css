@@ -1,0 +1,28 @@
+footer {
+    background: #F5F5F5;
+    padding-top: 24px;
+
+}
+
+.footer__content {
+    width: 100%;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+.footer__top__item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.footer__item__title {
+    font-weight: 600;
+}
