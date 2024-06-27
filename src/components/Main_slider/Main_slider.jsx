@@ -4,7 +4,7 @@ import prevImg from './../../pict/prev-btn.svg'
 import nextImg from './../../pict/nezt-btn.svg'
 
 
-function MainSlider ({onClickF, onClickS, onClickPrev, img, title}) {
+function MainSlider ({onClickF, onClickS, onClickPrev, img, title, isTransform}) {
     return (
         <section className="section">
                         
@@ -12,7 +12,10 @@ function MainSlider ({onClickF, onClickS, onClickPrev, img, title}) {
                             <div className="slider__container">
                                 <div className="slider__item">
                                     <div className="slider__item__text-content">
-                                        <div className="slider__item__title">{title}</div>
+                                        <div className="slider__item__title--wrap">
+                                        <div className={`slider__item__title ${isTransform ? "click" : ""}`}>{title}</div>
+                                        </div>
+                                        
                                         <div className="slider__item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum laudantium praesentium vel tempora magni quas minima blanditiis quam, obcaecati quae dolor veniam similique repellat, debitis adipisci ad et. Reprehenderit, quae?</div>
                                         <div className="slider__item__btn">
                                             <button className="seconary-btn">Узнать больше</button>

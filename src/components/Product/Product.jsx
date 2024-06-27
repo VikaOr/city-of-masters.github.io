@@ -2,7 +2,7 @@ import React from 'react'
 import bascetImg from './../../pict/bascet.svg'
 import './product.css'
 
-export default function Product({img, title, text, classNames, onClick}) {
+export default function Product({img, title, text, classNames, funck}) {
   return (
     
       <div className="product-wrap">
@@ -17,7 +17,7 @@ export default function Product({img, title, text, classNames, onClick}) {
           </div>
           <div className="button-section">
             <button className="seconary-btn">Подробнее</button>
-            <button className="prev-btn" onClick={onClick}>В корзину</button>
+            <button className="prev-btn" onClick={funck}>В корзину</button>
           </div>
           
         </div>

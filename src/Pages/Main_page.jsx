@@ -32,6 +32,7 @@ const slides = [
 
 function Main_page () {
     const [isOpen, setOpen] = useState(true);
+    const [isClick, setClick] = useState(false);
     function handleClick() {
         setOpen(!isOpen);
       };
@@ -39,14 +40,17 @@ function Main_page () {
     function nextClick() {
         if (next ==slides.length-1) {
             setnext(0)
+            setClick(!isClick)
         } else {
             setnext(next + 1);
+            setClick(!isClick)
         }
         
     }
     function prevClick() {
         if (next ==0) {
-            setnext(slides.length-1)
+            setnext(slides.length-1);
+            
         } else {
             setnext(next - 1);
         }
@@ -65,7 +69,8 @@ function Main_page () {
                     onClickS={nextClick}
                     onClickPrev = {prevClick}
                     img={slides[next].img}
-                    title={slides[next].title}/>
+                    title={slides[next].title}
+                    isTransform={isClick}/>
                     </section>
                     
                     <Prices_examp />

@@ -91,3 +91,7 @@ input:focus {
 .form .prev-btn {
     width: 100%;
 }
+
+.mistake {
+    border: 2px solid #BC0707;
+}

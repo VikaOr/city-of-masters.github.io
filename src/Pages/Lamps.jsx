@@ -200,6 +200,7 @@ export default function Lamps() {
   const [isClick, setClick] = useState(false);
     function setItem() {
         setClick(!isClick);
+        console.log('клик')
       };
     function chuseItem () {
       if (isClick) {
@@ -210,7 +211,7 @@ export default function Lamps() {
       img = {item.img} 
       title = {item.name} 
       text = {'Некий текст'}
-      onClick={setItem}/>
+      funck={setItem}/>
 )
   return (
     <div>

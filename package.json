@@ -1,4 +1,5 @@
 {
+  "homepage": "https://VikaOr.github.io/city-of-masters",
   "name": "city-of-masters",
   "version": "0.1.0",
   "private": true,
@@ -8,14 +9,18 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
+    "imask": "^7.6.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
