@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/city-of-masters.github.io/static/css/main.292f3bf1.css",
-    "main.js": "/city-of-masters.github.io/static/js/main.f5941946.js",
+    "main.css": "/city-of-masters.github.io/static/css/main.2eb65af5.css",
+    "main.js": "/city-of-masters.github.io/static/js/main.dd69bfd5.js",
     "static/js/453.2e09a64c.chunk.js": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js",
     "static/media/slider_production.png": "/city-of-masters.github.io/static/media/slider_production.811d0c38300c1c4e6526.png",
     "static/media/experience.jpg": "/city-of-masters.github.io/static/media/experience.bdf437a79b917af77309.jpg",
+    "static/media/небоjpg.jpg": "/city-of-masters.github.io/static/media/небоjpg.f5e17210d36dc4b27f5a.jpg",
     "static/media/сатиновый потолокjpg.jpg": "/city-of-masters.github.io/static/media/сатиновый потолокjpg.91b52953c10846895527.jpg",
+    "static/media/фотопечатьjpg.jpg": "/city-of-masters.github.io/static/media/фотопечатьjpg.3d80f30d4f0a2ec479ed.jpg",
     "static/media/LOGO.svg": "/city-of-masters.github.io/static/media/LOGO.728371d6bf24544a27cb488adfdef7d1.svg",
     "index.html": "/city-of-masters.github.io/index.html",
     "static/media/search-normal.svg": "/city-of-masters.github.io/static/media/search-normal.40d06c41cc5df80f9eb3aef94f5c1f2d.svg",
@@ -14,12 +16,12 @@
     "static/media/bcg-main-class.svg": "/city-of-masters.github.io/static/media/bcg-main-class.efa809c270d076e275a6.svg",
     "static/media/prev-btn.svg": "/city-of-masters.github.io/static/media/prev-btn.6dcfe5487c2f198396bb2e9bd2109e6f.svg",
     "static/media/nezt-btn.svg": "/city-of-masters.github.io/static/media/nezt-btn.e6e78783b4a9ae61023f651813b7bd29.svg",
-    "main.292f3bf1.css.map": "/city-of-masters.github.io/static/css/main.292f3bf1.css.map",
-    "main.f5941946.js.map": "/city-of-masters.github.io/static/js/main.f5941946.js.map",
+    "main.2eb65af5.css.map": "/city-of-masters.github.io/static/css/main.2eb65af5.css.map",
+    "main.dd69bfd5.js.map": "/city-of-masters.github.io/static/js/main.dd69bfd5.js.map",
     "453.2e09a64c.chunk.js.map": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.292f3bf1.css",
-    "static/js/main.f5941946.js"
+    "static/css/main.2eb65af5.css",
+    "static/js/main.dd69bfd5.js"
   ]
 }
