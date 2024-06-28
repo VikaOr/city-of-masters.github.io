@@ -21,13 +21,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="city-of-masters.github.io" element={<Header />}>
+        <Route path="/city-of-masters.github.io" element={<Header />}>
           <Route index element={<Home /> } />
-          <Route path="city-of-masters.github.io" element={<Home />} />
-          <Route path="ceiling" element={<Ceiling />} />
-          <Route path="prices" element={<Prices />} />
-          <Route path="lamps" element={<Lamps />} />
-          <Route path="basket" element={<Bascket />} />
+          <Route path="/city-of-masters.github.io" element={<Home />} />
+          <Route path="/ceiling" element={<Ceiling />} />
+          <Route path="/prices" element={<Prices />} />
+          <Route path="/lamps" element={<Lamps />} />
+          <Route path="/basket" element={<Bascket />} />
         </Route>
         
       </Routes>
