@@ -16,13 +16,13 @@ import Header from './components/heder/Header.jsx';
 function App() {
   return (
       <Routes>
-        <Route path="/" element={<Header />}>
+        <Route path="" element={<Header />}>
           <Route index element={<Home /> } />
-          <Route path="/" element={<Home />} />
-          <Route path="/ceiling" element={<Ceiling />} />
-          <Route path="/prices" element={<Prices />} />
-          <Route path="/lamps" element={<Lamps />} />
-          <Route path="/basket" element={<Bascket />} />
+          <Route path="" element={<Home />} />
+          <Route path="ceiling" element={<Ceiling />} />
+          <Route path="prices" element={<Prices />} />
+          <Route path="lamps" element={<Lamps />} />
+          <Route path="basket" element={<Bascket />} />
         </Route>
         
       </Routes>
