@@ -7,7 +7,7 @@ export default function Product({img, title, text, classNames, funck}) {
     
       <div className="product-wrap">
         <div className="product__container">
-          <div className="img-wrap">
+          <div className="img--wrap">
             <img src={img} alt="" className="img__contant" />
             </div>
           <div className="text-container">

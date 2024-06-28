@@ -41,16 +41,11 @@
     font-size: 32px;
     font-weight: 600;
     width: 340px;
-    position: absolute;
-    left: -450px;
-    top: -120px;
+    
     
 }
 
-.slider__item__title.click {
-    transform: translate(450px, 120px);
-    transition: all 0.5s ease-in-out;
-}
+
 
 .slider__item__text {
     font-size: 16px;

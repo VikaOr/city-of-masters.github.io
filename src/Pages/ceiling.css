@@ -1,20 +1,11 @@
-.grid-container {
+.grid-container--Ceiling {
     display: grid;
     grid-template-columns: repeat(2, 512px);
+    width: 100%;
     justify-content: space-between;
     gap: 10px;
     row-gap: 80px;
 }
 
-.grid-item {
-    width: 370px;
-}
 
-.product-width {
-    &width512px {
-        width: 512px;
-    }
-    &width370px {
-        width: 370px;
-    }
-}
+

@@ -1,0 +1,70 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65);
+    overflow: hidden;
+    overflow-y: auto;
+    transform: top 0.3s;
+    z-index: 2;
+}
+
+.modal.close {
+    top: -100vh;
+}
+
+.modal-wrap {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.modal__container {
+    
+    position: relative;
+}
+
+.close-item {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+    padding: 4px;
+    border: 2px solid #ffffff;
+}
+
+.close-item:hover {
+    border: 2px solid #1C2E36;
+    border-radius: 2px;
+}
+
+
+.modal-content {
+    background: #ffff;
+    padding: 45px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    width: 1080px;
+}
+
+.img-container {
+    width: 512px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 32px;
+    font-weight: 600;
+}

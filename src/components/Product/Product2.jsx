@@ -1,21 +1,27 @@
 import React from 'react'
-import './product2.css'
+import './productCeiling.css'
 
-export default function Product2({img, title, text}) {
+export default function Product2({img, title, text, openClick, setContent}) {
+
+  
+
+function propsTarget() {
+  openClick();
+  setContent([img, title, text]);
+}
+
   return (
-<div className="product-wrap">
-        <div className="product__container">
-          <div className="img-wrap">
-            <img src={img} alt="" className="img__contant" />
+<div className="product-wrap--ceiling">
+        <div className="product__container--ceiling">
+          <div className="img-wrap--ceiling">
+            <img src={img} alt="" className="img__contant--ceiling" />
             </div>
           <div className="text-container">
             <div className="title">{title}</div>
-            <div className="text-content">{text}</div>
 
           </div>
           <div className="button-section">
-            <button className="seconary-btn">Подробнее</button>
-            <button className="prev-btn">В корзину</button>
+            <button className="seconary-btn" onClick={propsTarget}>Подробнее</button>
           </div>
           
         </div>
