@@ -1,10 +1,7 @@
 import { 
-  BrowserRouter, 
   Routes, 
   Route } from 'react-router-dom';
-import Main_page from './Pages/Main_page.jsx';
 import Prices from './Pages/Prices.jsx';
-import logo from './logo.svg';
 import Home from './../src/Pages/Main_page.jsx'
 import Ceiling from './../src/Pages/Ceiling.jsx'
 import Lamps from './../src/Pages/Lamps.jsx'
@@ -14,12 +11,10 @@ import Bascket from './Pages/Bascket.jsx';
 
 import './App.css';
 import { RouterProvider } from 'react-router-dom';
-import { router } from './router/index.jsx';
 import Header from './components/heder/Header.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Home /> } />
@@ -31,7 +26,6 @@ function App() {
         </Route>
         
       </Routes>
-    </BrowserRouter>
   );
 }
 
