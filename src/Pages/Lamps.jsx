@@ -215,7 +215,6 @@ export default function Lamps() {
 )
   return (
     <div>
-      <Header />
       <div className="main-page">
       <div className="container">
         <div className="grid-container">

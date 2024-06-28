@@ -5,12 +5,12 @@ import Product2 from '../components/Product/Product2'
 import { useState } from 'react'
 
 import img1 from './../pict/matovi.jpg'
-import img2 from './../pict/сатиновый потолокjpg.jpg'
-import img3 from './../pict/тканевый_потолокjpg.jpg'
-import img4 from './../pict/сатиновый потолокjpg.jpg'
-import img5 from './../pict/сатиновый потолокjpg.jpg'
-import img6 from './../pict/сатиновый потолокjpg.jpg'
-import img7 from './../pict/сатиновый потолокjpg.jpg'
+import img2 from './../pict/глянцевый_потолокjpg.jpg'
+import img3 from './../pict/сатиновый потолокjpg.jpg'
+import img4 from './../pict/тканевый_потолокjpg.jpg'
+import img5 from './../pict/фотопечатьjpg.jpg'
+import img6 from './../pict/небоjpg.jpg'
+import img7 from './../pict/теневойjpg.jpg'
 import Modal_info from '../components/Modal_info/Modal_info'
 
 const product =[
@@ -70,7 +70,7 @@ const product =[
       name: 'Натяжные потолки с фотопечатью',
       color: 'wh',
       material: 'plastick',
-      img: img1,
+      img: img5,
     },
     {
       category: 'point',
@@ -79,7 +79,7 @@ const product =[
       name: 'Натяжные потолки Небо',
       color: 'bk',
       material: 'plastick',
-      img: img2,
+      img: img6,
     },
     {
       category: 'point',
@@ -88,7 +88,7 @@ const product =[
       name: 'Теневые натяжные потолки',
       color: 'wh',
       material: 'plastick',
-      img: img3,
+      img: img7,
     },
     {
       category: 'point',
