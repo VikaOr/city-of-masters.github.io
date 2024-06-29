@@ -1,12 +1,16 @@
 import React from 'react'
+import { useState } from 'react';
 import bascetImg from './../../pict/bascet.svg'
 import './product.css'
 
 export default function Product({product, funck}) {
+  
+  const [isClick, setIsClick] =useState(true)
 
   function targetElem() {
     funck(product);
-    console.log(product.name)
+    console.log(product.name);
+    setIsClick(false);
   };
 
   return (
@@ -23,7 +27,7 @@ export default function Product({product, funck}) {
           </div>
           <div className="button-section">
             <button className="seconary-btn">Подробнее</button>
-            <button className="prev-btn" onClick={targetElem}>В корзину</button>
+            <button className={`prev-btn ${isClick ? "": "count"}`} onClick={targetElem}>В корзину</button>
           </div>
           
         </div>
