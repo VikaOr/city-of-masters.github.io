@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './basket_item.css'
 
 
-export default function BastektIem({product}) {
+export default function BastektIem({img, priceItem, name}) {
     
     const [count, setClick] = useState(1);
     function pluseCount() {
@@ -12,15 +12,15 @@ export default function BastektIem({product}) {
     function minuseCount() {
         (count>1 ? setClick(count - 1): setClick(1))   
     };
-    let price = product.price;
+    let price = priceItem;
         price=count*price;
         price=price.toFixed(2);
     
   return (
     <div>
       <div className="container">
-        <img src={product.img} alt="" className="pikt" />
-        <div className="item-name">{product.name}</div>
+        <img src={img} alt="" className="pikt" />
+        <div className="item-name">{name}</div>
         <div className="count-item--wrap">
             <div className="minus" onClick={minuseCount}>-</div>
             <div className="counter">{count}</div>

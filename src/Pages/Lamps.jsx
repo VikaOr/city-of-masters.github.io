@@ -7,14 +7,14 @@ import img1 from './../pict/sw105wh.jpg';
 import img2 from './../pict/sw105bkjpg.jpg';
 import img3 from './../pict/sw65bk.jpg';
 import img4 from './../pict/sw65whjpg.jpg';
-import Header from '../components/heder/Header';
+
 
 
 const orders =[];
 const product =[
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -23,7 +23,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'bk',
@@ -32,7 +32,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW65',
     color: 'wh',
@@ -41,7 +41,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW65',
     color: 'wh',
@@ -50,7 +50,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -59,7 +59,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'bk',
@@ -68,7 +68,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -77,7 +77,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -86,7 +86,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -95,7 +95,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'bk',
@@ -104,7 +104,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -113,7 +113,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -122,7 +122,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -131,7 +131,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'bk',
@@ -140,7 +140,7 @@ const product =[
   },
   {
     category: 'point',
-    price: '1.074',
+    price: 1.074,
     stroked: true,
     name: 'SW105',
     color: 'wh',
@@ -196,29 +196,57 @@ const product =[
 
 
 
-export default function Lamps() {
+export default function Lamps({chuseElemFunc}) {
   const [isClick, setClick] = useState(false);
-    function setItem() {
-        setClick(!isClick);
-        console.log('клик')
-      };
-    function chuseItem () {
-      if (isClick) {
-        console.log('клик')
-      }
-    };
-  const listProducts = product.map((item) => <Product 
-      img = {item.img} 
-      title = {item.name} 
-      text = {'Некий текст'}
-      funck={setItem}/>
-)
+  const [chuseElem, setElem] = useState();
+  function chuseItem (chuseElem) {
+    setElem(chuseElem);
+    orders.push(chuseElem);
+    console.log(orders.length);
+    console.log(orders);
+    let elem =orders[0];
+    console.log(elem["color"]);
+    chuseElemFunc(orders);
+  };
+
+
+  
   return (
     <div>
       <div className="main-page">
       <div className="container">
         <div className="grid-container">
-        {listProducts}
+        <Product
+      product={product[0]}
+      funck={chuseItem} />
+      <Product
+      product={product[1]}
+      funck={chuseItem} />
+      <Product
+      product={product[2]}
+      funck={chuseItem} />
+      <Product
+      product={product[3]}
+      funck={chuseItem} />
+      <Product
+      product={product[4]}
+      funck={chuseItem} />
+      <Product
+      product={product[5]}
+      funck={chuseItem} />
+      <Product
+      product={product[6]}
+      funck={chuseItem} />
+      <Product
+      product={product[0]}
+      funck={chuseItem} />
+      <Product
+      product={product[0]}
+      funck={chuseItem} />
+      <Product
+      product={product[0]}
+      funck={chuseItem} />
+
         </div>
         
       </div>

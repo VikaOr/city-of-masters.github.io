@@ -1,31 +1,27 @@
 import React from 'react'
 import { useState } from 'react';
 import BastektIem from '../components/basketComponent/BastektIem';
-import img1 from './../pict/sw105wh.jpg';
-const product = {
-    category: 'point',
-    price: '1.074',
-    stroked: true,
-    name: 'SW105',
-    color: 'wh',
-    material: 'plastick',
-    img: img1,
+
+
+
+
+
+export default function Bascket({products}) {
+    
+  let listComponents = [];
+
+  for (let i = 0; i < products.length; i++) {
+    listComponents.push(<><BastektIem img={products[i][0]} priceItem={products[i][1]} name = {products[i][2]}/></>)
   }
-
-export default function Bascket() {
-    let count = 1;
-    const [isClick, setClick] = useState(false);
-    function pluseCount () {
-        if (isClick) {
-
-        }
-    }
+  console.log(products.length)
+  console.log(listComponents.length);
+  console.log(listComponents)
   return (
     <div>
         <div className="main-page">
       <div className="container">
         <div className="main-page__content">
-        <BastektIem product={product} />
+        {listComponents}
         
         </div>
         
