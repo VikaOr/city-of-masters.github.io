@@ -2,7 +2,7 @@ import React from 'react'
 import './services.css'
 import MainSlider from './../Main_slider/Main_slider.jsx';
 
-export default function Services({onClick}) {
+export default function Services({onClick, nextClick, prevClick, img, title, isTransform}) {
   return (
     <div>
       <section className="section">
@@ -22,7 +22,12 @@ export default function Services({onClick}) {
                             </div>
                         </div>
                         
-                            <MainSlider onClick={onClick}/>
+                            <MainSlider onClickF={onClick}
+                                        onClickS={nextClick}
+                                        onClickPrev = {prevClick}
+                                        img={img}
+                                        title={title}
+                                        isTransform={isTransform}/>
                         </div>
                     </section>
     </div>

@@ -75,7 +75,12 @@ function Main_page () {
                     
                     <Prices_examp />
                     <Count_price onClick={handleClick}/>
-                    <Services onClickF={handleClick}/>
+                    <Services onClickF={handleClick}
+                                nextClick={nextClick}
+                                prevClick = {prevClick}
+                                img={slides[0].img}
+                                title={slides[0].title}
+                                isTransform={isClick}/>
                 </div>
                     
             </div>

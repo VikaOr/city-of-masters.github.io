@@ -1,8 +1,10 @@
-.container {
+.container-product {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 1px 2px 15px #f5f5f5;
+    padding-right: 10px;
 }
 
 .count-item--wrap {
@@ -26,4 +28,9 @@
 
 .pluse:hover, .minus:hover {
     background: #7E7B7B;
+}
+
+.pikt {
+    width: 232px;
+    height: 232px;
 }
