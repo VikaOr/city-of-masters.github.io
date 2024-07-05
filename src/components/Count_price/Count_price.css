@@ -92,7 +92,17 @@
     gap: 32px;
     width: 100%;
     text-align: left;
-}
+    align-items: center;
+    }
+    .price-section__content {
+        margin: 0 auto;
+    }
+    .section__content__item__btn-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
 }
 
 @media (max-width: 582px) {
@@ -166,6 +176,9 @@
         flex-wrap: wrap;
         gap: 10px;
     }
+    .price-section__content {
+        margin: 0 auto;
+    }
 } 
 
 @media (max-width: 330px) {
@@ -204,4 +217,5 @@
         background-color: #F5F5F5;
         cursor: pointer;
     }
+    
 } 

@@ -1,7 +1,7 @@
 .pagination__nav__list {
     display: flex;
     color: #A09B9B;
-    background-color: #F5F5F5;
+    
     padding: 0;
 
 }
@@ -20,9 +20,21 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+    background-color: #F5F5F5;
 }
 
 .pagination__nav__item.active, .pagination__nav__item:hover {
     background-color: #D41E24;
     color: #fff;
+}
+
+@media (max-width: 1030px) {
+    .pagination__nav__list {
+        display: flex;
+        flex-wrap: wrap;
+        color: #A09B9B;
+        background-color: #F5F5F5;
+        padding: 0;
+    
+    }
 }

@@ -1,5 +1,4 @@
 import './../Main_slider/Main_slider.css'
-import sliderImgFirst from './../../pict/slider_production.png'
 import prevImg from './../../pict/prev-btn.svg'
 import nextImg from './../../pict/nezt-btn.svg'
 

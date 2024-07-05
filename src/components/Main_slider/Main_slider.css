@@ -4,21 +4,18 @@
     align-items: stretch;
     width: 1080px;
     height: fit-content;
-    @media (width: 1080px) {
-        width: 960px;
-    }
 }
 
 .slider__item {
     width: 100%;
     height: auto;
     position: relative;
-    background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-items: stretch;
     box-shadow: 0px 4px 8px 1px rgb(0, 0, 0, 0.16);
+    background: #F5F5F5;
 }
 
 .slider__item__text-content {
@@ -95,6 +92,12 @@
 
 .prev-slider-btn:hover, .next-slider-btn:hover {
     background-color: #7E7B7B;
+}
+
+@media  (max-width: 1030px) {
+    .slider__wrap {
+        max-width: 960px;
+    }
 }
 
 @media  (max-width: 1000px) {
@@ -188,4 +191,99 @@
         gap: 20px;
         align-self: center;
     }
+}
+
+@media  (max-width: 426px) {
+    .slider__wrap {
+        max-width: 400px;
+        
+    }
+    .slider__item {
+        max-width: 400px;
+    }
+    .slider__item__img--wrap {
+        order: -1;
+        height: 252px;
+        width: 100%;;
+        overflow: hidden;
+        position: relative;
+    }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        display: flex;
+        gap: 20px;
+        align-self: center;
+    }
+}
+
+@media  (max-width: 376px) {
+    .slider__wrap {
+        width: 340px;
+        
+    }
+    .slider__item__img--wrap {
+        order: -1;
+        height: 252px;
+        min-width: 250px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .slider__item__img {
+        min-width: 300px;
+        width: 100%;
+        left: 0px;
+    }
+    .slider__item__text-content {
+        width: 300px;
+    }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        display: flex;
+        gap: 20px;
+        align-self: center;
+    }
+    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
+        
+        width: 300px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+}
+
+@media  (max-width: 325px) {
+    .slider__wrap {
+        width: 300px;
+        
+    }
+    .slider__item__img--wrap {
+        order: -1;
+        height: 252px;
+        min-width: 250px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .slider__item__img {
+        min-width: 300px;
+        width: 100%;
+        left: 0px;
+    }
+    .slider__item__text-content {
+        width: 260px;
+    }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        display: flex;
+        gap: 20px;
+        align-self: center;
+    }
+    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
+        width: 260px;
+        cursor: pointer;
+        font-size: 14px;
+      }
 }

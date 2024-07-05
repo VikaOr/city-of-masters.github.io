@@ -3,6 +3,7 @@ import './../../src/index.css'
 import React from 'react'
 import Count_price from './../components/Count_price/Count_price.jsx';
 import Prices_examp from '../components/Prices_examples/Prices_examp.jsx';
+import Footer from '../components/footer/Footer.jsx';
 
 
 export default function Prices() {
@@ -15,7 +16,7 @@ export default function Prices() {
             <Count_price />
           
           </div>
-          
+          <Footer/>
         </div>
       </div>
       
