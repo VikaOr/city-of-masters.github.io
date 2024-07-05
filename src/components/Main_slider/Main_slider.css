@@ -197,13 +197,7 @@
         font-weight: 600;
     }
     
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        left: 0;
-        display: flex;
-        align-self: center;
-    }
+    
     .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
         width: calc(100% - 20px);
         cursor: pointer;
@@ -212,12 +206,9 @@
 }
 
 @media  (max-width: 426px) {
-    
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        display: flex;
-        width: calc(100% - 10px);
+    .slider__item__title {
+        font-size: 22px;
+        font-weight: 600;
     }
     .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
         max-width: 400px;
@@ -226,29 +217,16 @@
     }
 }
 
-@media  (max-width: 426px) {
 
-} 
 
-/* @media  (max-width: 376px) {
+ @media  (max-width: 376px) {
     
-    .slider__item__text-content {
-        width: 300px;
-    }
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        display: flex;
-        gap: 20px;
-        align-self: center;
-    }
+    
     .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
-        
-        width: 300px;
         cursor: pointer;
         font-size: 14px;
       }
-} */
+} 
 
 @media  (max-width: 325px) {
 
@@ -257,16 +235,9 @@
         
     }
     .slider__item__title {
-        font-size: 24px;
+        font-size: 22px;
         width: 260px;
         margin-left: -75px;
-    }
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        display: flex;
-        gap: 20px;
-        align-self: center;
     }
     .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
         width: 260px;
