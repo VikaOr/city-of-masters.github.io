@@ -65,12 +65,15 @@ function Main_page () {
                 <div className="main-page__content">
                     <section className='section'>
                     <div className="section__title">Город Мастеров<span></span></div>
-                    <MainSlider onClickF={handleClick}
-                    onClickS={nextClick}
-                    onClickPrev = {prevClick}
-                    img={slides[next].img}
-                    title={slides[next].title}
-                    isTransform={isClick}/>
+                    <div className="section-content">
+                        <MainSlider onClickF={handleClick}
+                        onClickS={nextClick}
+                        onClickPrev = {prevClick}
+                        img={slides[next].img}
+                        title={slides[next].title}
+                        isTransform={isClick}/>
+                    </div>
+                    
                     </section>
                     
                     <Prices_examp />
@@ -78,8 +81,7 @@ function Main_page () {
                     <Services onClickF={handleClick}
                                 nextClick={nextClick}
                                 prevClick = {prevClick}
-                                img={slides[0].img}
-                                title={slides[0].title}
+                                
                                 isTransform={isClick}/>
                 </div>
                     

@@ -1,8 +1,11 @@
 import {useState} from 'react';
 import InputMask from "react-input-mask";
 import './Modal_window.css';
-import './../Main_page/Main_page.css';
+
 import close_img from './../../pict/close-item.svg';
+
+
+
 
 function ModalWindow ({isOpen, onClick}) {
     const [imail, setImail] = useState("");
@@ -15,7 +18,9 @@ function ModalWindow ({isOpen, onClick}) {
     function nameInput () {
         if(imail.length>0 &&imail.length<20) {
 
-            setIsTrue(true)
+            setIsTrue(true);
+            onClick(true);
+            isOpen=true;
         }else {
             setIsTrue(false)
         }

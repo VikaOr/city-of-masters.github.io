@@ -1,6 +1,7 @@
 import React from 'react'
 import './ceiling.css'
-import './../components/Product/productCeiling.css'
+
+import './../../src/index.css'
 import Product2 from '../components/Product/Product2'
 import { useState } from 'react'
 

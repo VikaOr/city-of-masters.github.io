@@ -19,3 +19,21 @@
         width: 370px;
     }
 }
+
+@media  (max-width: 1080px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 232px);
+    }
+}
+
+@media  (max-width: 1004px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 232px);
+    }
+}
+
+@media  (max-width: 492px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 232px);
+    }
+}

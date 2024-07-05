@@ -2,7 +2,7 @@ import React from 'react'
 import Product from '../components/Product/Product'
 import {useState} from 'react';
 import './lamps.css';
-import './../components/Product/product.css'
+import './../../src/index.css'
 import img1 from './../pict/sw105wh.jpg';
 import img2 from './../pict/sw105bkjpg.jpg';
 import img3 from './../pict/sw65bk.jpg';

@@ -1,8 +1,15 @@
-.section__content {
+.section {
+    justify-content: center;
+}
+.section__content--wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+.section__content--grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 264px);
     gap: 8px;
-    max-width: 1080px;
+    width: 100%;
     justify-content: center;
     
 }
@@ -47,4 +54,20 @@
 .section__content__item__bottom-content span {
     font-size: 14px;
     
+}
+
+@media (max-width: 1080px) {
+    .section__content--wrap {
+        width: 960px;
+    }
+}
+@media (max-width: 980px) {
+    .section__content--wrap {
+        width: 536px;
+    }
+}
+@media (max-width: 556px) {
+    .section__content--wrap {
+        width: 264px;
+    }
 }

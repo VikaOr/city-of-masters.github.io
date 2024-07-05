@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 16px;
-    width: 100%;
+    width: 1080px;
     height: fit-content;
+    @media (width: 1080px) {
+        width: 960px;
+    }
 }
 
 .slider__item {
@@ -100,16 +102,18 @@
         max-width: 512px;
         margin: 0 auto;
         position: relative;
+        gap: 0px;
     }
     .slider__item {
         max-width: 512px;
         flex-direction: column;
-        width: fit-content;
+        gap: 0px;
     } 
     .slider__item__img--wrap {
+        height: 252px;
+        width: 100%;
         order: -1;
         height: 252px;
-        width: 512px;
         
         overflow: hidden;
         position: relative;
@@ -119,10 +123,17 @@
         right: 32px;
         right: 0;
         bottom: 0;
-        width: 577px;
+        width: 100%;
     }
     .slider__item__text-content {
         margin: 40px 20px;
+    }
+    .slider__item__title--wrap {
+        width: 340px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .slider__item__title {
         font-size: 24px;
@@ -132,16 +143,19 @@
     .slider__item__text {
         font-size: 14px;
     }
-    .prev-slider-btn {
-        position: absolute;
-        left: 0;
-        top: 216px;
+    .slider__item__btn {
+        width: 100%;
+        justify-content: space-around;
     }
-    .next-slider-btn {
+
+    .btn-section {
         position: absolute;
-        right: 0;
         top: 216px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
+    
     .prev-slider-btn, .next-slider-btn {
         background-color: #514f4f;
     }
@@ -152,5 +166,26 @@
 
     .seconary-btn , .prev-btn {
         font-size: 14px;
+    }
+}
+
+@media  (max-width: 532px) {
+    .slider__wrap {
+        min-width: 300px;
+        
+    }
+    .slider__item__img--wrap {
+        order: -1;
+        height: 252px;
+        width: 100%;;
+        overflow: hidden;
+        position: relative;
+    }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        display: flex;
+        gap: 20px;
+        align-self: center;
     }
 }

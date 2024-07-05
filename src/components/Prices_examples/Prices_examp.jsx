@@ -7,7 +7,7 @@ export default function Prices_examp() {
       <section className="section">
             <div className="section__title">Цены<span></span></div>
             <div className="section__content--wrap">
-                <div className="section__content">
+                <div className="section__content--grid">
                     <div className="section__content__item">
                         <div className="section__content__item__title">Econom</div>
                         <div className="section__content__item__text-content">

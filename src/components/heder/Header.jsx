@@ -45,8 +45,8 @@ function Header () {
                             <span className="header__burger-btn__span"></span>
                             <span className="header__burger-btn__span"></span>
                         </button>  
-                        <img src={searchImg} alt="" />
-                        <Link to='/basket'><img src={bascetImg} alt="корзина" /></Link>
+                        <img src={searchImg} className='bascet-img' alt="" />
+                        <Link to='/basket'><img className='bascet-img' src={bascetImg} alt="корзина" /></Link>
                     </div>
                 </nav>
             </div>

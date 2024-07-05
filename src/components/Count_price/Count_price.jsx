@@ -1,12 +1,10 @@
 import './../Count_price/Count_price.css'
-import './../Main_page/Main_page.css'
 import './../../../src/index.css'
 
 function countPrice ({onClick}) {
     return (
-        <>
-        <div className="section">
-            <div className="section--wrap">
+        <section className='section'>
+        <div className="section--wrap">
                 <div className="section__title">Примерный рассчет стоимости</div>
                 <div className="price-section__content">
                     <div className="section__content__item--left">
@@ -39,8 +37,7 @@ function countPrice ({onClick}) {
                     </div>
                 </div>
             </div>
-        </div>
-    </>
+    </section>
     )
     
 }
