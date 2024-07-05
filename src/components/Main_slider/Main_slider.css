@@ -127,6 +127,7 @@
     }
     .slider__item__text-content {
         margin: 40px 20px;
+        text-align: center;
     }
     .slider__item__title--wrap {
         width: 340px;
@@ -187,9 +188,10 @@
     .slider__item__text-content {
         margin: 10px;
         width: calc(100% - 20px);
+        align-items: center;
     }
     .slider__item__title--wrap {
-        width: calc(100% - 20px);
+        width: 100%;
         height: 80px;
     }
     .slider__item__title {
@@ -199,7 +201,7 @@
     
     
     .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
-        width: calc(100% - 20px);
+        width: 100%;
         cursor: pointer;
         font-size: 14px;
       }
@@ -210,39 +212,29 @@
         font-size: 22px;
         font-weight: 600;
     }
-    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
-        max-width: 400px;
-        cursor: pointer;
+    .slider__item__text {
         font-size: 14px;
     }
 }
-
-
-
- @media  (max-width: 376px) {
-    
-    
-    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
-        cursor: pointer;
-        font-size: 14px;
-      }
-} 
+ 
 
 @media  (max-width: 325px) {
-
+    .slider__item__img--wrap {
+        height: 232px;
+        min-width: 250px;
+        overflow: hidden;
+        position: relative;
+    }
     .slider__item__text-content {
-        width: 260px;
-        
+        gap: 16px;
     }
     .slider__item__title {
-        font-size: 22px;
-        width: 260px;
-        margin-left: -75px;
+        font-size: 20px;
+        width: 260px; 
     }
-    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
-        width: 260px;
-        cursor: pointer;
-        font-size: 14px;
-      }
+    .slider__item__title--wrap {
+        width: 100%;
+        height: 60px;
+    }
     
 }
