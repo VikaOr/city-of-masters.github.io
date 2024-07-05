@@ -100,13 +100,13 @@
 
 @media  (max-width: 1000px) {
     .slider__wrap {
-        max-width: 512px;
+        width: 512px;
         margin: 0 auto;
         position: relative;
         gap: 0px;
     }
     .slider__item {
-        max-width: 512px;
+        width: 100%;
         flex-direction: column;
         gap: 0px;
     } 
@@ -121,7 +121,6 @@
     }
     .slider__item__img {
         position: absolute;
-        right: 32px;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -170,12 +169,12 @@
     }
 }
 
-@media  (max-width: 532px) {
+ @media  (max-width: 532px) {
     .slider__wrap {
         width: calc(100% - 10px);
     }
     .slider__item {
-        width: calc(100% - 10px);
+        width: 100%;
         min-width: 250px;
     }
     .slider__item__img--wrap {
@@ -189,6 +188,15 @@
         margin: 10px;
         width: calc(100% - 20px);
     }
+    .slider__item__title--wrap {
+        width: calc(100% - 20px);
+        height: 80px;
+    }
+    .slider__item__title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
     .btn-section {
         position: absolute;
         top: 216px;
@@ -204,20 +212,7 @@
 }
 
 @media  (max-width: 426px) {
-    .slider__wrap {
-        width: calc(100% - 10px);
-    }
-    .slider__item {
-        width: calc(100% - 10px);
-        min-width: 250px;
-    }
-    .slider__item__img--wrap {
-        order: -1;
-        height: 252px;
-        min-width: 250px;
-        overflow: hidden;
-        position: relative;
-    }
+    
     .btn-section {
         position: absolute;
         top: 216px;
@@ -233,7 +228,7 @@
 
 @media  (max-width: 426px) {
 
-}
+} 
 
 /* @media  (max-width: 376px) {
     
@@ -256,23 +251,7 @@
 } */
 
 @media  (max-width: 325px) {
-    .slider__wrap {
-        width: 300px;
-        
-    }
-    .slider__item__img--wrap {
-        order: -1;
-        height: 252px;
-        min-width: 250px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-    .slider__item__img {
-        min-width: 300px;
-        width: 100%;
-        left: 0px;
-    }
+
     .slider__item__text-content {
         width: 260px;
         

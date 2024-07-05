@@ -48,7 +48,7 @@ p {
 
 .section {
   display: flex;
-  
+  width: 100%;
   flex-direction: column;
   gap: 56px;
 }
@@ -99,7 +99,7 @@ p {
 
 @media  (max-width: 1000px) {
   .container {
-    max-width: 560px;
+    width: calc(100% - 20px);
   }
 }
 
@@ -107,8 +107,8 @@ p {
   .section__title {
     font-size: 32px;
   }
-  .container {
-    max-width: 520px;
+  .section {
+    width: 100%;
   }
 }
 
@@ -135,6 +135,6 @@ p {
     font-size: 28px;
   }
   .container {
-    max-width: 380px;
+    width: calc(100% - 20px);
   }
 }
