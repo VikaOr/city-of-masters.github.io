@@ -172,67 +172,71 @@
 
 @media  (max-width: 532px) {
     .slider__wrap {
-        min-width: 300px;
-        
-    }
-    .slider__item__img--wrap {
-        order: -1;
-        height: 252px;
-        width: 100%;;
-        overflow: hidden;
-        position: relative;
-    }
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        display: flex;
-        gap: 20px;
-        align-self: center;
-    }
-}
-
-@media  (max-width: 426px) {
-    .slider__wrap {
-        max-width: 400px;
-        
+        width: calc(100% - 10px);
     }
     .slider__item {
-        max-width: 400px;
-    }
-    .slider__item__img--wrap {
-        order: -1;
-        height: 252px;
-        width: 100%;;
-        overflow: hidden;
-        position: relative;
-    }
-    .btn-section {
-        position: absolute;
-        top: 216px;
-        display: flex;
-        gap: 20px;
-        align-self: center;
-    }
-}
-
-@media  (max-width: 376px) {
-    .slider__wrap {
-        width: 340px;
-        
+        width: calc(100% - 10px);
+        min-width: 250px;
     }
     .slider__item__img--wrap {
         order: -1;
         height: 252px;
         min-width: 250px;
-        width: 100%;
         overflow: hidden;
         position: relative;
     }
-    .slider__item__img {
-        min-width: 300px;
-        width: 100%;
-        left: 0px;
+    .slider__item__text-content {
+        margin: 10px;
+        width: calc(100% - 20px);
     }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        left: 0;
+        display: flex;
+        align-self: center;
+    }
+    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
+        width: calc(100% - 20px);
+        cursor: pointer;
+        font-size: 14px;
+      }
+}
+
+@media  (max-width: 426px) {
+    .slider__wrap {
+        width: calc(100% - 10px);
+    }
+    .slider__item {
+        width: calc(100% - 10px);
+        min-width: 250px;
+    }
+    .slider__item__img--wrap {
+        order: -1;
+        height: 252px;
+        min-width: 250px;
+        overflow: hidden;
+        position: relative;
+    }
+    .btn-section {
+        position: absolute;
+        top: 216px;
+        display: flex;
+        width: calc(100% - 10px);
+    }
+    .slider__wrap .seconary-btn , .slider__wrap .prev-btn {
+        max-width: 400px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+}
+
+@media  (max-width: 426px) {
+
+}
+
+/* @media  (max-width: 376px) {
+    
     .slider__item__text-content {
         width: 300px;
     }
@@ -249,7 +253,7 @@
         cursor: pointer;
         font-size: 14px;
       }
-}
+} */
 
 @media  (max-width: 325px) {
     .slider__wrap {

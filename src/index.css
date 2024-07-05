@@ -42,6 +42,7 @@ p {
 .main-page__content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 224px;
 }
 
@@ -117,5 +118,23 @@ p {
   }
   .container {
     max-width: 420px;
+  }
+}
+
+@media  (max-width: 426px) {
+  .section__title {
+    font-size: 28px;
+  }
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media  (max-width: 401px) {
+  .section__title {
+    font-size: 28px;
+  }
+  .container {
+    max-width: 380px;
   }
 }
