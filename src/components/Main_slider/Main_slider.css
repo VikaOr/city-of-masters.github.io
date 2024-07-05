@@ -40,8 +40,6 @@
     font-size: 32px;
     font-weight: 600;
     width: 340px;
-    
-    
 }
 
 
@@ -273,6 +271,12 @@
     }
     .slider__item__text-content {
         width: 260px;
+        
+    }
+    .slider__item__title {
+        font-size: 24px;
+        width: 260px;
+        margin-left: -75px;
     }
     .btn-section {
         position: absolute;
@@ -286,4 +290,5 @@
         cursor: pointer;
         font-size: 14px;
       }
+    
 }
