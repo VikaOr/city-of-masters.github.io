@@ -23,7 +23,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .modal__container {
@@ -68,3 +67,4 @@
     font-size: 32px;
     font-weight: 600;
 }
+

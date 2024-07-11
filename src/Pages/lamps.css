@@ -29,6 +29,7 @@
 @media  (max-width: 1004px) {
     .grid-container {
         grid-template-columns: repeat(2, 232px);
+        justify-content: center;
     }
 }
 
@@ -36,4 +37,5 @@
     .grid-container {
         grid-template-columns: repeat(1, 232px);
     }
+    
 }
