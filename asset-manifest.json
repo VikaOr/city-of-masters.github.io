@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/city-of-masters.github.io/static/css/main.3f0883cb.css",
-    "main.js": "/city-of-masters.github.io/static/js/main.95c3b721.js",
+    "main.css": "/city-of-masters.github.io/static/css/main.e837ba8c.css",
+    "main.js": "/city-of-masters.github.io/static/js/main.5301a0e6.js",
     "static/js/453.2e09a64c.chunk.js": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js",
     "static/media/slider_production.png": "/city-of-masters.github.io/static/media/slider_production.811d0c38300c1c4e6526.png",
     "static/media/experience.jpg": "/city-of-masters.github.io/static/media/experience.bdf437a79b917af77309.jpg",
     "static/media/небоjpg.jpg": "/city-of-masters.github.io/static/media/небоjpg.f5e17210d36dc4b27f5a.jpg",
+    "static/media/слив_воды.jpg": "/city-of-masters.github.io/static/media/слив_воды.c9c6ecfbb3c289877b8c.jpg",
     "static/media/сатиновый потолокjpg.jpg": "/city-of-masters.github.io/static/media/сатиновый потолокjpg.91b52953c10846895527.jpg",
+    "static/media/монтаж_потолка.png": "/city-of-masters.github.io/static/media/монтаж_потолка.3d9e69f0e1e4094ead0d.png",
     "static/media/фотопечатьjpg.jpg": "/city-of-masters.github.io/static/media/фотопечатьjpg.3d80f30d4f0a2ec479ed.jpg",
     "static/media/LOGO.svg": "/city-of-masters.github.io/static/media/LOGO.728371d6bf24544a27cb488adfdef7d1.svg",
     "index.html": "/city-of-masters.github.io/index.html",
@@ -16,12 +18,12 @@
     "static/media/bcg-main-class.svg": "/city-of-masters.github.io/static/media/bcg-main-class.efa809c270d076e275a6.svg",
     "static/media/prev-btn.svg": "/city-of-masters.github.io/static/media/prev-btn.6dcfe5487c2f198396bb2e9bd2109e6f.svg",
     "static/media/nezt-btn.svg": "/city-of-masters.github.io/static/media/nezt-btn.e6e78783b4a9ae61023f651813b7bd29.svg",
-    "main.3f0883cb.css.map": "/city-of-masters.github.io/static/css/main.3f0883cb.css.map",
-    "main.95c3b721.js.map": "/city-of-masters.github.io/static/js/main.95c3b721.js.map",
+    "main.e837ba8c.css.map": "/city-of-masters.github.io/static/css/main.e837ba8c.css.map",
+    "main.5301a0e6.js.map": "/city-of-masters.github.io/static/js/main.5301a0e6.js.map",
     "453.2e09a64c.chunk.js.map": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f0883cb.css",
-    "static/js/main.95c3b721.js"
+    "static/css/main.e837ba8c.css",
+    "static/js/main.5301a0e6.js"
   ]
 }
