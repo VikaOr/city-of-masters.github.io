@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from '../components/Product/Product'
+import Footer from '../components/footer/Footer';
 import {useState} from 'react';
 import './lamps.css';
 import './../../src/index.css'
@@ -214,42 +215,43 @@ export default function Lamps({chuseElemFunc}) {
   return (
     <div>
       <div className="main-page">
-      <div className="container">
-        <div className="grid-container">
+        <div className="container">
+          <div className="grid-container">
+          <Product
+        product={product[0]}
+        funck={chuseItem} />
         <Product
-      product={product[0]}
-      funck={chuseItem} />
-      <Product
-      product={product[1]}
-      funck={chuseItem} />
-      <Product
-      product={product[2]}
-      funck={chuseItem} />
-      <Product
-      product={product[3]}
-      funck={chuseItem} />
-      <Product
-      product={product[4]}
-      funck={chuseItem} />
-      <Product
-      product={product[5]}
-      funck={chuseItem} />
-      <Product
-      product={product[6]}
-      funck={chuseItem} />
-      <Product
-      product={product[0]}
-      funck={chuseItem} />
-      <Product
-      product={product[0]}
-      funck={chuseItem} />
-      <Product
-      product={product[0]}
-      funck={chuseItem} />
+        product={product[1]}
+        funck={chuseItem} />
+        <Product
+        product={product[2]}
+        funck={chuseItem} />
+        <Product
+        product={product[3]}
+        funck={chuseItem} />
+        <Product
+        product={product[4]}
+        funck={chuseItem} />
+        <Product
+        product={product[5]}
+        funck={chuseItem} />
+        <Product
+        product={product[6]}
+        funck={chuseItem} />
+        <Product
+        product={product[0]}
+        funck={chuseItem} />
+        <Product
+        product={product[0]}
+        funck={chuseItem} />
+        <Product
+        product={product[0]}
+        funck={chuseItem} />
 
+          </div>
+          
         </div>
-        
-      </div>
+      <Footer/>
       </div>
       
     </div>

@@ -16,8 +16,9 @@ export default function Prices() {
             <Count_price />
           
           </div>
-          <Footer/>
+          
         </div>
+        <Footer/>
       </div>
       
     </div>

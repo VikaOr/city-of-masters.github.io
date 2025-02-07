@@ -21,12 +21,8 @@ export default function Bascket({products}) {
     <div>
         <div className="main-page">
       <div className="container">
-        <div className="main-page__content">
-          <div className="basket-container">
+        <div className="basket-container">
           {listComponents}
-          </div>
-        
-        
         </div>
         
       </div>

@@ -9,3 +9,10 @@
 
 
 
+@media  (max-width: 1034px) {
+    .grid-container--Ceiling {
+        grid-template-columns: repeat(1, 512px);
+        justify-content: center;
+    }
+}
+

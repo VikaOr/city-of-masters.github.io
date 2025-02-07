@@ -12,6 +12,7 @@ import sliderImgFirst from './../pict/slider_production.png';
 import sliderImgSecond from './../pict/experience.jpg';
 import sliderImgThird from './../pict/lamp.jpg';
 
+
 const slides = [
     {
         number: 1,
@@ -30,11 +31,21 @@ const slides = [
     }
 ];
 
+
+
 function Main_page () {
     const [isOpen, setOpen] = useState(true);
     const [isClick, setClick] = useState(false);
+    
     function handleClick() {
-        setOpen(!isOpen);
+        if (isOpen) {
+
+            setOpen(!isOpen)
+            
+        } else {
+            
+            setOpen(!isOpen)
+        };
       };
     const [next, setnext] = useState(0);
     function nextClick() {
@@ -78,11 +89,9 @@ function Main_page () {
                     
                     <Prices_examp />
                     <Count_price onClick={handleClick}/>
-                    <Services onClickF={handleClick}
-                                nextClick={nextClick}
-                                prevClick = {prevClick}
-                                
-                                isTransform={isClick}/>
+                    <Services onClickF={handleClick}/>
+                    
+                    
                 </div>
                     
             </div>

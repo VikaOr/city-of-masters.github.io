@@ -1,6 +1,6 @@
 import React from 'react'
 import './ceiling.css'
-
+import Footer from '../components/footer/Footer';
 import './../../src/index.css'
 import Product2 from '../components/Product/Product2'
 import { useState } from 'react'
@@ -251,6 +251,7 @@ export default function Ceiling() {
             <Product2 img = {product[6].img} title = {product[6].name} text = {'Некий текст'} openClick={openClick}/>
             </div>
         </div>
+        <Footer/>
       </div>
     </div>
   )

@@ -1,3 +1,9 @@
+.section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}
+
 .pagination__nav__list {
     display: flex;
     color: #A09B9B;

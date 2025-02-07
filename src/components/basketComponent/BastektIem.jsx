@@ -33,7 +33,7 @@ export default function BastektIem({img, priceItem, name}) {
             <div className="pluse" onClick={pluseCount}>+</div>
         </div>
         <div className="price">{price}</div>
-        <div className="close-btn"><img src={closeImg} alt="" /></div>
+        <div className="close-btn" ><img src={closeImg} alt="" /></div>
       </div>
     </div>
   )
