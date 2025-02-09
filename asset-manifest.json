@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/city-of-masters.github.io/static/css/main.e16ceb56.css",
-    "main.js": "/city-of-masters.github.io/static/js/main.7ca41ba9.js",
+    "main.css": "/city-of-masters.github.io/static/css/main.d08f2d63.css",
+    "main.js": "/city-of-masters.github.io/static/js/main.22a548ed.js",
     "static/js/453.2e09a64c.chunk.js": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js",
     "static/media/slider_production.png": "/city-of-masters.github.io/static/media/slider_production.811d0c38300c1c4e6526.png",
     "static/media/experience.jpg": "/city-of-masters.github.io/static/media/experience.bdf437a79b917af77309.jpg",
@@ -18,12 +18,12 @@
     "static/media/bcg-main-class.svg": "/city-of-masters.github.io/static/media/bcg-main-class.efa809c270d076e275a6.svg",
     "static/media/prev-btn.svg": "/city-of-masters.github.io/static/media/prev-btn.6dcfe5487c2f198396bb2e9bd2109e6f.svg",
     "static/media/nezt-btn.svg": "/city-of-masters.github.io/static/media/nezt-btn.e6e78783b4a9ae61023f651813b7bd29.svg",
-    "main.e16ceb56.css.map": "/city-of-masters.github.io/static/css/main.e16ceb56.css.map",
-    "main.7ca41ba9.js.map": "/city-of-masters.github.io/static/js/main.7ca41ba9.js.map",
+    "main.d08f2d63.css.map": "/city-of-masters.github.io/static/css/main.d08f2d63.css.map",
+    "main.22a548ed.js.map": "/city-of-masters.github.io/static/js/main.22a548ed.js.map",
     "453.2e09a64c.chunk.js.map": "/city-of-masters.github.io/static/js/453.2e09a64c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16ceb56.css",
-    "static/js/main.7ca41ba9.js"
+    "static/css/main.d08f2d63.css",
+    "static/js/main.22a548ed.js"
   ]
 }
